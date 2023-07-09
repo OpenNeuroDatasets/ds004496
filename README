@@ -13,7 +13,7 @@ The stimulus images for different fMRI experiments are deposited in separate fol
 Each participant folder consists of several session folders:  anat, coco, imagenet, prf, floc. Each session folder in turn includes “anat”, “func”, or “fmap” folders for corresponding modality data. The scan information for each session is provided in a TSV file. 
 
 *Preprocessed volume data from fMRIprep*
-The preprocessed volume-based fMRI data are in subject's native space, saved as “sub-<subID>_ses-<sesID>_task-<taskID>_run-<index>_space-T1w_desc-preproc_bold.nii.gz” for each functional run. A “sub-<subID>_ses-<sesID>_task-<taakID>_run-<index>_desc-confounds_timeseries.tsv” file stores the confounds variable extracted by fMRIprep. The details of other auxiliary files can be found under each session folder.
+The preprocessed volume-based fMRI data are in subject's native space, saved as “sub-<subID>_ses-<sesID>_task-<taskID>_run-<index>_space-T1w_desc-preproc_bold.nii.gz” for each functional run. A “sub-<subID>_ses-<sesID>_task-<taskID>_run-<index>_desc-confounds_timeseries.tsv” file stores the confounds variable extracted by fMRIprep. The details of other auxiliary files can be found under each session folder.
 
 *Preprocessed surface-based data from ciftify*
 The preprocessed surface-based data are in standard fsLR space, saved as “sub-<subID>/results/ses-<sesID>_task-<taskID>_run-<index>/ses-<sesID>_task-<taskID>_run-<index>_Atlas.dtseries.nii” for each functional run under each run folder. The standard and native fsLR surface can be found in the standard_fsLR_surface and T1w_fsLR_surface folders, respectively.
